@@ -15,15 +15,5 @@
       "path": "/api/scrape",
       "schedule": "0 7 * * *"
     }
-  ],
-  "env": {
-    "MAKE_PRICE_WEBHOOK_URL":  "@make_price_webhook_url",
-    "GOOGLE_SHEET_ID":         "@google_sheet_id",
-    "GOOGLE_CREDENTIALS_JSON": "@google_credentials_json",
-    "WC_BASE_URL":             "@wc_base_url",
-    "WC_CONSUMER_KEY":         "@wc_consumer_key",
-    "WC_CONSUMER_SECRET":      "@wc_consumer_secret",
-    "CRON_SECRET":             "@cron_secret",
-    "APPROVE_SECRET":          "@approve_secret"
-  }
+  ]
 }
